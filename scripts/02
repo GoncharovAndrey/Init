@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Which user to delete : "
+ps aux | grep $REPLY | grep -v grep | awk '{print $2}' | xargs sudo kill -9
+sudo userdel $REPLY

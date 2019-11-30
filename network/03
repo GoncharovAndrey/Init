@@ -1,3 +1,2 @@
 #!/bin/bash
-
 networksetup -getinfo "Wi-Fi" | grep "Wi-Fi ID:" | cut -d ' ' -f 3

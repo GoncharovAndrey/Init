@@ -1,0 +1,6 @@
+#Cron
+#/etc/cron.minutely - each minut
+#/etc/cron.hourly - each hour
+#/etc/cron.daily - every day
+#/etc/cron.weekly - every week
+#/etc/cron.monthly - every month
